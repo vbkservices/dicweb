@@ -26,6 +26,10 @@
 </link>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="./dicnav/dicnav.js"></script>
+<script src="./dicnav/divfooter.js"></script>
+
 <script>
     $(document).ready(function () {
         $('.owl-carousel').owlCarousel({
@@ -53,12 +57,6 @@
         width: 100%;
         height: 100%;
     }
-
-    .footer {
-        height: 50px;
-        /*設定footer本身高度*/
-    }
-
     li {
         font-size: 12px;
     }
@@ -69,41 +67,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dicblue p-0">
-            <div class="container">
-                <a class="navbar-brand text-white">
-                    <b>資訊傳播系</b></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">最新消息 </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">系所介紹</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">作品一欄</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">學生專區</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">招生資訊</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">教室導覽</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">畢業展望</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dicblue p-0" id="dicnav">
         </nav>
     </header>
     <div class="container">
@@ -182,34 +146,8 @@
             </div>
         </div>
     </div>
-        <footer class="footer">
-            <div class="container-fuild bg-dicblue pt-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-white h2">資傳傳播系</div>
-                    </div>
-                    <div class="col-xl-5">
-                        <h5 class="text-white" >以[幸福、多元、創意、現代化]為創系願景、期以現</p>代化的設
-                        備提供學生創意的環境，並能獲得更多元</p>與跨領域學習以達到幸福就業的目標</h5>
-                    </div>
-                    <div class="col-xl-3">
-                        <nav class="nav flex-column">
-                            <a class="nav-link  p-0 h5 text-white dic-footer-border" href="#">電話 : 06-2727175#356</a>
-                            <a class="nav-link  p-0 h5 text-white dic-footer-border" href="#">傳真 : 06-2050014</a>
-                            <a class="nav-link px-0 py-3 h5 text-white dic-footer-border" href="#">資傳粉專</a>
-                        </nav>
-                    </div>
-                    <div class="col-xl-4">
-                        <nav class="nav flex-column">
-                            <a class="nav-link  p-0 h5 text-white" href="#">地址 : 710303 台南市永康區崑大路195號 </a>
-                            <a class="nav-link  p-0 h5 text-white" href="#">系辦位置 : I4504 (資科四館五樓)</a>
-                            <a class="nav-link px-0 py-3 h5 text-white" href="#">資傳Youtube</a>
-                          </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <footer id="dicfooter">
+
         </footer>
 
 
