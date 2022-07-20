@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<title>dicweb</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<!------>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</link>
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</link>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="./dicnav/dicnav.js"></script>
+<script src="./dicnav/divfooter.js"></script>
+<style>
+    .bg-dicblue {
+        background-color: rgb(120, 160, 170);
+    }
+
+    .text-dicblue {
+        color: rgb(120, 160, 170);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav li {
+        font-size: 12px;
+    }
+
+    .card ul li {
+        font-size: 36px;
+    }
+
+    .dic-footer-border {
+        border-right: solid 5px rgb(255, 255, 255);
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dicblue p-0" id="dicnav">
+        </nav>
+    </header>
+    <div class="container-fuild">
+        <img src="image/dicintroduce.jpg" class="img-fluid">
+    </div>
+    <div class="container-fuild mt-3 mb-5" style="height: 100%;">
+        <div class="container">
+            <!--教育理念-->
+            <div
+                style="width: 100%; height: 3vh; border-bottom: 3px solid rgb(120, 160, 170); text-align: left;margin-bottom:70px;margin-top:70px;">
+                <span
+                    style="font-size: 36px; background-color: rgb(255, 255, 255); padding: 0 10px;color:rgb(120, 160, 170);">
+                    招生照片
+                </span>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/header.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/header.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/header.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="text-center my-5"  style="font-size: 36px; background-color: rgb(255, 255, 255); padding: 0 10px;color:rgb(120, 160, 170);">
+                國高中職參訪剪影</br>
+                <a style="font-size: 20px;">更多招生剪影</a>
+            </div>
+
+            <!--教育目標-->
+            <div class="row my-5">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 fs-4 my-2 text-dicblue">
+                        曾文家商 廣設科</br>
+                        111年05月15日 星期五
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 fs-4 my-2 text-dicblue">
+                        曾文家商 廣設科</br>
+                        111年05月15日 星期五
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row my-5">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 fs-4 my-2 text-dicblue">
+                        曾文家商 廣設科</br>
+                        111年05月15日 星期五
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 fs-4 my-2 text-dicblue">
+                        曾文家商 廣設科</br>
+                        111年05月15日 星期五
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row my-5">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 fs-4 my-2 text-dicblue">
+                        曾文家商 廣設科</br>
+                        111年05月15日 星期五
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/topic1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                                <div class="col-12">
+                                    <img src="image/dicintroduce.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 fs-4 my-2 text-dicblue">
+                        曾文家商 廣設科</br>
+                        111年05月15日 星期五
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center my-5"  style="font-size: 36px; background-color: rgb(255, 255, 255); color:rgb(120, 160, 170);">
+                國高中職參訪剪影</br>
+            </div>
+
+            <div class="row my-5 text-center">
+                <div class="col-6">
+                    <img src="image/header.jpeg" class="img-fluid">
+                    <div class="fs-4 my-2 text-dicblue">
+                        教師赴高中職學校招生拜訪
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="image/header.jpeg" class="img-fluid">
+                    <div class="fs-4 my-2 text-dicblue">
+                        教師赴高中職學校招生拜訪
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row my-5 text-center">
+                <div class="col-6">
+                    <img src="image/header.jpeg" class="img-fluid">
+                    <div class="fs-4 my-2 text-dicblue">
+                        教師赴高中職學校招生拜訪
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="image/header.jpeg" class="img-fluid">
+                    <div class="fs-4 my-2 text-dicblue">
+                        教師赴高中職學校招生拜訪
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5 text-center">
+                <div class="col-6">
+                    <img src="image/header.jpeg" class="img-fluid">
+                    <div class="fs-4 my-2 text-dicblue">
+                        教師赴高中職學校招生拜訪
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="image/header.jpeg" class="img-fluid">
+                    <div class="fs-4 my-2 text-dicblue">
+                        教師赴高中職學校招生拜訪
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <footer id="dicfooter">
+    </footer>
+</body>
+
+</html>
